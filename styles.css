@@ -47,7 +47,7 @@ body {
     content: '';
     width: 6px;
     height: 10px;
-    background-color: #e74c3c;
+    background-color: #e6eb4f;
     border-radius: 50% 50% 0 0;
     margin-top: -10px;
     animation: flickerFlame 0.2s infinite alternate;
@@ -76,11 +76,15 @@ body {
 }
 
 #message {
-    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     font-family: 'Amiri', serif;
     font-size: 36px; /* Adjusted font size */
-    color: #e74c3c;
-    text-align: center; /* Center text horizontally */
+    font-weight: bold;
+    color: #ba2d2d;
 }
 
 #confetti-container {
